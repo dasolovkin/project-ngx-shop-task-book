@@ -12,17 +12,17 @@
 Для запуска окружения непрерывной разработки выполните команду
 
 ```bash
-npm run start:3-directives_3-description-component
+npm run start:3-directives_4-description-component
 ```
 
 Для проверки своего решения выполните
 
 ```bash
-npm run test:3-directives_3-description-component
+npm run test:3-directives_4-description-component
 ```
 
 Для проверки стилистики кода
 
 ```bash
-npm run lint:3-directives_3-description-component
+npm run lint:3-directives_4-description-component
 ```
