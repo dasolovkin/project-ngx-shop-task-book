@@ -53,7 +53,7 @@ describe('[Moдуль 4 - Компонент страницы товара app]'
     fixture.detectChanges();
   });
 
-  it('компонент должен иметь свойство products c значением null', () => {
-    expect((component as any).products).toBeDefined(null);
+  it('компонент должен иметь свойство product c значением null', () => {
+    expect((component as any).product).toBeDefined(null);
   });
 });
