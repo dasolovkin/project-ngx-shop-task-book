@@ -1,6 +1,6 @@
-<div class="form-group row align-items-center mx-0">
+<div class="form-group row align-items-center mx-0" [formGroup]="pricesGroup">
   <label class="col-2 px-0 mb-0 text-center text-dark">От</label>
-  <input class="form-control col-4" />
+  <input class="form-control col-4" [min]="options?.floor" type="number" formControlName="low" />
   <label class="col-2 px-0 mb-0 text-center text-dark">до</label>
-  <input type="number" class="form-control col-4" />
+  <input type="number" class="form-control col-4" [max]="options?.ceil" formControlName="high" type="number"/>
 </div>
